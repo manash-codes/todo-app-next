@@ -5,10 +5,10 @@ export default async function SignUp() {
         <h1 className="text-center text-5xl font-bold">Sign Up</h1>
         <form >
             <div className="my-4 flex flex-col">
-                <label className="my-2 ps-3 text-base font-bold" htmlFor="fullname">Full Name</label>
-                <input name="fullname" type="text" id="fullname" className="text-md w-[410px] rounded-lg p-4 text-black outline-none" placeholder="John Doe" />
-                <label className="my-2 ps-3 text-base font-bold" htmlFor="fathername">Father Name</label>
-                <input name="fathername" type="text" id="fathername" className="text-md w-[410px] rounded-lg p-4 text-black outline-none" placeholder="John Doe" />
+                <label className="my-2 ps-3 text-base font-bold" htmlFor="fullName">Full Name</label>
+                <input name="fullName" type="text" id="fullName" className="text-md w-[410px] rounded-lg p-4 text-black outline-none" placeholder="John Doe" />
+                <label className="my-2 ps-3 text-base font-bold" htmlFor="fatherName">Father Name</label>
+                <input name="fatherName" type="text" id="fatherName" className="text-md w-[410px] rounded-lg p-4 text-black outline-none" placeholder="John Doe" />
                 <label className="my-2 ps-3 text-base font-bold" htmlFor="email">Email</label>
                 <input name="email" type="text" id="email" className="text-md w-[410px] rounded-lg p-4 text-black outline-none" placeholder="John@email.com" />
                 <label className="my-2 ps-3 text-base font-bold" htmlFor="phoneNumber">Phone Number</label>

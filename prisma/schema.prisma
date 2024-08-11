@@ -19,6 +19,6 @@ model User {
   email       String @unique
   phone       String @unique
   fatherName  String @map("father_name")
-  countryCode Int    @map("country_code")
+  countryCode String @map("country_code")
   password    String
 }
